@@ -1,0 +1,92 @@
+
+
+
+What does a neuron compute?
+
+A- A neuron computes a linear function z= Wx+b followed by an activation function
+B- A neuron computes a function g that scales the input x linearly (Wx + b)
+C- A neuron computes an activation function followed by a linear function z = WX+b
+D- A neuron computes the mean of all features before applying the output to an activation function
+
+A is correct 
+
+uppose that y^= 0.5 and y=0. What is the value of the "Logistic Loss"? Choose the best option.
+A- 0.5 
+B- L(y^,y) = - (y log y^+ (1+y)log(1-y^) 
+C- + no limited 
+D- 0.693
+
+D is correct 
+
+Consider the Numpy array x:
+x=np.array([[[1],[2]],[[3],[4]]])
+What is the shape of x?
+A- (1, 2, 2)
+
+B- (2,2,1)
+
+C- (4,)
+
+D- (2, 2)
+
+B is correct 
+
+
+Consider the following random arrays a and b, and c:
+a = np.random.randn(4,3)#a.shape = (4,3)
+b = np.random.randn(3,2)#b.shape = (3,2) 
+c= a*b 
+What will be the shape of c?
+
+A- c.shape = (4, 3)
+
+B- c.shape = (4,2)
+
+C- c.shape = (3, 3)
+
+D- The computation cannot happen because the sizes don't match. It's going to be "Error"!
+
+D is correct 
+
+Suppose you have Nx input features per example. If we decide to use row vectors Xj for the features and
+What is the dimension of X?
+A- (1, nx)
+B- (Mx,Nx)
+C- (Nx, M)
+D- (Nx, Nx)
+
+B is correct 
+
+Consider the following array:
+a = np.array([[2,1],[1,3]])
+What is the result of np.dot(a,a)? 
+
+A-  ( 5 5 5 10 ) is correct 
+
+Consider the following code snippet:
+a.shape=(3,4)
+b.shape=(4,1)
+for i in range(3):
+for j in range(4):
+c[i][j] = a[i][j]*b[j]
+How do you vectorize this?
+
+c+ a*b.T is correct 
+
+Consider the following code:
+a= np.random.randn(3,3)
+b= np.random.randn(3,1)
+c= a*b
+Consider the following code:
+What will be c? (If you’re not sure, feel free to run this in python to find out).
+
+B-  This will invoke broadcasting, so b is copied three times to become (3,3), and  
+∗ is an element-wise product so c.shape will be (3, 3)
+ 
+B is correct 
+
+Consider the following computation graph.
+D- J=(a-1)*(b+c)
+is correct 
+
+
