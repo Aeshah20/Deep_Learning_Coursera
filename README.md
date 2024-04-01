@@ -6,3 +6,4 @@ This repo contains all my work for this specialization. All the code base, quiz 
 
 # Programming Assignments 
 Course 1: Neural Networks and Deep Learning 
+https://github.com/Aeshah20/Deep_Learning_Coursera/blob/First/Week%201%20Quiz%20-%20Introduction%20to%20deep%20learning
