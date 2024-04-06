@@ -1,0 +1,33 @@
+Week 3 Quiz - Shallow Neural Networks
+
+Given a corpus A, encoded as( 123) and corpus B encoded as (472) and corpus B encoded as?
+is correct 5.91608
+
+Given the previous problem, a user now came up with a corpus C defined as (341) and you want to recommend a document that is similar to it. Would you recommend document A or document B?
+is correct Document A
+
+What is the range of a cosine similarity score, namely s,  in the case of information retrieval where the vectors are positive?
+is correct 0≤s≤1
+
+The cosine similarity score of corpus A =(1 0 1) and corpus B = (2 8 1 ) is equal to? 
+is correct 
+0.08512565307587486
+
+Please select all that apply. PCA is 
+1- used to reduce the dimension of your data;
+2- visualize word vectors;
+
+Please select all that apply. Which is correct about PCA?
+1- You can think of an eigenvector as an uncorrelated feature for your data.
+2- The eigenvalues tell you the amount of information retained by each feature.
+3- Computing the covariance matrix is critical when performing PCA
+
+In which order do you perform the following operations when computing PCA?
+is correct mean normalize, get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. 
+
+
+Vector space models allow us to 
+1- To represent words and documents as vectors. 
+2- build useful applications including and not limited to, information extraction, machine translation, and chatbots. 
+3- create representations that capture similar meaning. 
+
