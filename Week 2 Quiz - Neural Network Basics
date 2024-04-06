@@ -1,0 +1,35 @@
+
+
+Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. 
+If you were to randomly pick a person from the room, what is the probability that the person is happy.?
+is correct 1/2 
+
+Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. 
+If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B?
+is correct 1/2 
+
+From the equations presented below, express the probability of a tweet being positive given that it contains the word happy in terms
+of the probability of a tweet containing the word happy given that it is positive?
+is correct P( Positive ∣ "happy" )=P("happy" ∣ Positive )× P( "happy")P( Positive )
+​
+Bayes rule is defined as?
+is correct P(X∣Y)=P(Y∣X)×P(Y)/P(X)
+
+Suppose that in your dataset, 25% of the positive tweets contain the word ‘happy’. 
+You also know that a total of 13% of the tweets in your dataset contain the word 'happy', 
+and that 40% of the total number of tweets are positive. You observe the tweet: ''happy to learn NLP'.
+What is the probability that this tweet is positive? (Please, round your answer up to two decimal places. Remember that 0.578 = 0.58 and 0.572 = 0.57)?
+is correct 0.77
+
+The log likelihood mentioned in lecture, which is the log of the ratio between two probabilities is bounded between?
+is correct 
+−∞ and ∞
+
+To test naive bayes model, which of the following are required?
+is correct Xval,Y val,λ,logprior
+
+
+Which of the following is NOT an application of naive Bayes?
+is correct Numerical predictions
+​
+
